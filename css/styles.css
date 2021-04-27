@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+.wrapper{
+	width:100%;
+}
+
+header{
+	width:100%;
+	margin-left: 0px;
+	margin-right:0px;
+}
+body {
+  padding: 20px;
+	width:auto;
+}
+
+.row{
+	margin-top: 40px;
+}
+
+#navbar{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    background-color: #080811;
+    position: fixed;
+	  color: #FFFFFF;	
+}
+
+#navbar #nav{
+	float: right;
+	padding-top: 15px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+ul
+{
+list-style-type: none;
+padding: 10px;
+margin: 0;
+text-align: right;
+}
+
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li a:hover{
+	color: dodgerblue;
+}
+
+#logo{
+	float: left;
+	padding-top: 10px;
+}
+
+.wrapper p{
+  padding:5px;
+  font-family:  Gill Sans MT;
+  color: black;
+  font-size: 20px;
+  width:100%;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.wrapper{
+  position: relative;
+  text-align: center;
+  color: yellow;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+  padding: 10px;
+  margin-top:50px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+  width: 600px;
+  height: 600px;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*image text*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*my pictures section*/
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  margin-top: 70px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  position: relative;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 50%;
+    
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other OVERLAY TEXT AREA */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 50%;
+    position: relative;
+    width: 50%;
+    flex-flow: wrap;
+    width: 100%;
+  }
+}
+
+.image {
+  position:relative;
+  display:inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text {
+  color:white;
+  font-weight: bolder;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box {
+  float:left;
+  position:relative;
+  width:100%;
+}
+.box-text {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+
+#footer{
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+  background-color: #080811;
+  position: fixed;
+  color: #FFFFFF;	
+  clear: both;
+  text-align: center;
+  font: normal;
+  margin-top: 720px;
+  padding: 5px;
+}

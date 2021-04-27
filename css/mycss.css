@@ -1,0 +1,90 @@
+    /*Body Section*/
+body {
+    background-color: #92a8d1;
+  }
+
+    /*Header Section*/
+h1 {
+    background-color: bisque;
+    width: auto;
+    border: solid #5B6DCD 3px;
+    padding: 10px;
+    
+    margin: 5px 5px 20px 5px;
+    text-align: center;
+}
+
+    /*navbar Section*/
+#navbar { 
+    background-color: aliceblue;
+    width: 200px;
+    border: solid #cd5bcd 3px;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+ul{
+    line-height: 200%;
+}
+
+    /*Content Box*/
+#content-box {
+    border: solid #cd5bcd 5px;
+    height: 420px;
+    margin-left:220px;
+    margin-top: -370px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+    /*Box Main Content Area*/
+#box1{
+    background-color: rgb(240, 255, 249);
+    width: 500px;
+    height: 380px;
+    border: solid orangered 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+#box2{
+    background-color: rgb(240, 255, 249);
+    width: 540px;
+    height: 390px;
+    border: solid orangered 5px;
+    padding-left:  5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 590px;
+    margin-top: -410px;
+    position: relative;
+    text-align: center;
+    color: blue;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+    /*Footer*/
+#footer{
+    border:solid #cd5bcd 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin: 5px 5px 5px 5px;
+    font-weight: bold;
+    width: auto;
+}
+
+
